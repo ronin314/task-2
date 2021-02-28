@@ -11,7 +11,7 @@ const refs = {
 
 // pictures count
 const childs = refs.pictures.childElementCount;
-refs.elementsCount.textContent = `В галлерее ${childs} едементов`;
+refs.elementsCount.textContent = `В галерее ${childs} элементов`;
 
 // Date
 const date = new Date();
